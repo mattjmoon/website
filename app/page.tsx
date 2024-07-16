@@ -38,8 +38,9 @@ const Home = () => {
             <div className="h-full w-full bg-blue-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 px-8 py-8">
               {/* <h2 className="text-2xl font-semibold">About Me</h2> */}
               <p className="text-large">
-                Hello! I&apos;m Matt, a software engineer. I enjoy building
-                products.
+                Hello! I&apos;m Matt, a software engineer.
+                <br />
+                I enjoy building products.
                 <br />
                 <br />
                 In 2021, I graduated from UC Berkeley with a degree in Computer
