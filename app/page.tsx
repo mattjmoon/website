@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Home = () => {
   return (
-    <div>
+    <div className="text-black">
       <Head>
         <title>Matt Moon</title>
         <meta name="description" content="Matt Moon's personal website" />
@@ -13,39 +13,44 @@ const Home = () => {
       </Head>
 
       <div className="flex items-center justify-center min-h-screen">
-        <main className="container mx-auto px-4 max-w-screen-md align-middle text-center">
-          <header className="py-6">
+        <main className="container mx-auto px-4 max-w-screen-md align-middle text-center text-[#003366] font-mono">
+          <header className="pt-6">
             <h1 className="text-4xl font-bold">Matt Moon</h1>
-            <p className="text-xl">Software Engineer</p>
+            {/* <p className="text-xl">Software Engineer</p> */}
           </header>
 
           <section className="my-12">
-            <div className="flex justify-center">
-              <Image
-                src="/images/self.png"
-                alt="photo of Matt Moon"
-                width={200}
-                height={200}
-                className="rounded-full"
-              />
+            <div className="h-full w-1/2 mx-auto bg-blue-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0">
+              <div className="flex justify-center">
+                <Image
+                  src="/images/self.png"
+                  alt="a photo of Matt Moon"
+                  width={200}
+                  height={200}
+                  className="rounded-full"
+                />
+              </div>
             </div>
           </section>
 
           <section className="my-12 text-left w-1/2 mx-auto">
-            <div className="h-full w-full bg-blue-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 border border-gray-100">
+            <div className="h-full w-full bg-blue-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0">
               {/* <h2 className="text-2xl font-semibold">About Me</h2> */}
               <p className="text-large px-8 py-8">
-                Hello! I'm Matt, a software engineer.
+                Hello! I&apos;m Matt, a software engineer. I enjoy building
+                products.
                 <br />
                 <br />
                 In 2021, I graduated from UC Berkeley with a degree in Computer
                 Science.
                 <br />
-                After graduation, I co-founded an NFT Marketing Platform Startup
-                with two colleagues, which was acquired by Line Friends in 2021.
                 <br />
-                Following the required vesting period, I returned to the United
-                States, where I found more exciting opportunities.
+                After graduation, I co-founded an NFT Marketing Platform Startup
+                with two friends, which was acquired by Line Friends in 2021.
+                <br />
+                <br />
+                Following the required vesting period, I returned to the States,
+                where I found more exciting opportunities.
                 <br />
                 <br />
                 Pleasure to meet you :&#41;
@@ -105,7 +110,7 @@ const Home = () => {
         </main>
       </div>
 
-      <footer className="py-6 text-center">
+      <footer className="pt-40 pb-6 text-center text-[#003366] font-mono">
         &copy; {new Date().getFullYear()} @mattjmoon. All rights reserved.
       </footer>
     </div>
