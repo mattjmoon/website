@@ -20,13 +20,14 @@ const Home = () => {
           </header>
 
           <section className="my-12">
-            <div className="h-full w-1/2 mx-auto bg-blue-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0">
+            {/* <div className="h-full w-1/2 mx-auto bg-blue-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0"> */}
+            <div className="w-52 mx-auto border-solid border-4 border-[#D8D8D8] rounded-full hover:border-[#003366]">
               <div className="flex justify-center">
                 <Image
                   src="/images/self.png"
                   alt="a photo of Matt Moon"
-                  width={200}
-                  height={200}
+                  width={210}
+                  height={210}
                   className="rounded-full"
                 />
               </div>
@@ -34,9 +35,9 @@ const Home = () => {
           </section>
 
           <section className="my-12 text-left w-1/2 mx-auto">
-            <div className="h-full w-full bg-blue-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0">
+            <div className="h-full w-full bg-blue-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 px-8 py-8">
               {/* <h2 className="text-2xl font-semibold">About Me</h2> */}
-              <p className="text-large px-8 py-8">
+              <p className="text-large">
                 Hello! I&apos;m Matt, a software engineer. I enjoy building
                 products.
                 <br />
@@ -53,8 +54,28 @@ const Home = () => {
                 where I found more exciting opportunities.
                 <br />
                 <br />
-                Pleasure to meet you :&#41;
+                In my free time, I enjoy traveling, attending exhibitions and
+                concerts, watching movies, and participating in sports.
+                <br />
+                <br />
+                Pleasure to meet you :&#41;!
               </p>
+            </div>
+          </section>
+
+          <section className="my-12 text-left w-1/2 mx-auto">
+            <div className="h-full w-full bg-blue-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 px-8 py-8">
+              <h2 className="text-2xl font-semibold">Techstacks</h2>
+              <h2 className="text-lg font-semibold">Languages</h2>
+              <p className="text-base">
+                Go, Python, Typescript, Java, C++, SQL
+              </p>
+              <br />
+              <h2 className="text-lg font-semibold">Frameworks</h2>
+              <p className="text-base">
+                gRPC, Gin, Echo, FastAPI, Flask, Express, Next.js, React
+              </p>
+              <br />
             </div>
           </section>
 
