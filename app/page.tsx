@@ -21,7 +21,7 @@ const Home = () => {
 
           <section className="my-12">
             {/* <div className="h-full w-1/2 mx-auto bg-blue-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0"> */}
-            <div className="w-52 mx-auto border-solid border-4 border-[#D8D8D8] rounded-full hover:border-[#003366]">
+            <div className="w-52 mx-auto border-solid border-4 border-[#D8D8D8] rounded-full transition-transform duration-300 ease-in-out transform hover:scale-110">
               <div className="flex justify-center">
                 <Image
                   src="/images/self.png"
@@ -97,6 +97,7 @@ const Home = () => {
                     alt="Linkedin"
                     layout="fill"
                     objectFit="cover"
+                    className="transition-transform duration-300 ease-in-out transform hover:scale-110"
                   />
                 </Link>
               </div>
@@ -112,6 +113,7 @@ const Home = () => {
                     alt="resume"
                     layout="fill"
                     objectFit="cover"
+                    className="transition-transform duration-300 ease-in-out transform hover:scale-110"
                   />
                 </div>
               </Link>
@@ -128,6 +130,7 @@ const Home = () => {
                     alt="email"
                     layout="fill"
                     objectFit="cover"
+                    className="transition-transform duration-300 ease-in-out transform hover:scale-110"
                   />
                 </div>
               </Link>
