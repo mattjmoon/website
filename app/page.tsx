@@ -35,7 +35,7 @@ const Home = () => {
           </section>
 
           <section className="my-12 text-left sm:w-11/12 md:w-3/5 mx-auto">
-            <div className="h-full w-full bg-blue-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 px-8 py-8">
+            <div className="h-full w-full bg-blue-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 px-8 py-8 transition-transform duration-300 ease-in-out transform hover:scale-105">
               {/* <h2 className="text-2xl font-semibold">About Me</h2> */}
               <p className="text-large">
                 Hello! I&apos;m Matt, a software engineer.
@@ -65,7 +65,7 @@ const Home = () => {
           </section>
 
           <section className="my-12 text-left sm:w-11/12 md:w-3/5 mx-auto">
-            <div className="h-full w-full bg-blue-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 px-8 py-8">
+            <div className="h-full w-full bg-blue-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 px-8 py-8 transition-transform duration-300 ease-in-out transform hover:scale-105">
               <h2 className="text-2xl font-semibold">Techstacks</h2>
               <h2 className="text-lg font-semibold">Languages</h2>
               <p className="text-base">
