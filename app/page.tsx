@@ -77,6 +77,10 @@ const Home = () => {
                 gRPC, Gin, Echo, FastAPI, Flask, Express, Next.js, React
               </p>
               <br />
+              <h2 className="text-lg font-semibold">Tools</h2>
+              <p className="text-base">
+                AWS, Docker, Git, Vercel, Redis, MongoDB, Amplitude
+              </p>
             </div>
           </section>
 
