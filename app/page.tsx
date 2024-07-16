@@ -34,7 +34,7 @@ const Home = () => {
             </div>
           </section>
 
-          <section className="my-12 text-left w-1/2 mx-auto">
+          <section className="my-12 text-left w-3/5 mx-auto">
             <div className="h-full w-full bg-blue-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 px-8 py-8">
               {/* <h2 className="text-2xl font-semibold">About Me</h2> */}
               <p className="text-large">
@@ -63,7 +63,7 @@ const Home = () => {
             </div>
           </section>
 
-          <section className="my-12 text-left w-1/2 mx-auto">
+          <section className="my-12 text-left w-3/5 mx-auto">
             <div className="h-full w-full bg-blue-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 px-8 py-8">
               <h2 className="text-2xl font-semibold">Techstacks</h2>
               <h2 className="text-lg font-semibold">Languages</h2>
