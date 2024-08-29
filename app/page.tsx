@@ -103,7 +103,7 @@ const Home = () => {
               </div>
 
               <Link
-                href="/files/Joonho_Moon_SoftwareEngineer.pdf"
+                href="/files/Joonho_Moon_Resume_SoftwareEngineer.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
